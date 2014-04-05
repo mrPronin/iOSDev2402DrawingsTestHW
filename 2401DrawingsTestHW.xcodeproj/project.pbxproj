@@ -21,6 +21,7 @@
 		A290D72918EFFA5B007CADE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A290D70B18EFFA59007CADE5 /* UIKit.framework */; };
 		A290D73118EFFA5B007CADE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A290D72F18EFFA5B007CADE5 /* InfoPlist.strings */; };
 		A290D73318EFFA5B007CADE5 /* _401DrawingsTestHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A290D73218EFFA5B007CADE5 /* _401DrawingsTestHWTests.m */; };
+		A290D73E18EFFAF0007CADE5 /* RITDravingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A290D73D18EFFAF0007CADE5 /* RITDravingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A290D72E18EFFA5B007CADE5 /* 2401DrawingsTestHWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2401DrawingsTestHWTests-Info.plist"; sourceTree = "<group>"; };
 		A290D73018EFFA5B007CADE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A290D73218EFFA5B007CADE5 /* _401DrawingsTestHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _401DrawingsTestHWTests.m; sourceTree = "<group>"; };
+		A290D73C18EFFAF0007CADE5 /* RITDravingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RITDravingView.h; path = ../RITDravingView.h; sourceTree = "<group>"; };
+		A290D73D18EFFAF0007CADE5 /* RITDravingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RITDravingView.m; path = ../RITDravingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		A290D70D18EFFA59007CADE5 /* 2401DrawingsTestHW */ = {
 			isa = PBXGroup;
 			children = (
+				A290D73C18EFFAF0007CADE5 /* RITDravingView.h */,
+				A290D73D18EFFAF0007CADE5 /* RITDravingView.m */,
 				A290D71618EFFA5A007CADE5 /* RITAppDelegate.h */,
 				A290D71718EFFA5A007CADE5 /* RITAppDelegate.m */,
 				A290D71918EFFA5A007CADE5 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A290D73E18EFFAF0007CADE5 /* RITDravingView.m in Sources */,
 				A290D71818EFFA5A007CADE5 /* RITAppDelegate.m in Sources */,
 				A290D71418EFFA5A007CADE5 /* main.m in Sources */,
 				A290D71E18EFFA5A007CADE5 /* RITViewController.m in Sources */,
