@@ -89,58 +89,6 @@
     CGContextAddLineToPoint(context, firstPoint.x, firstPoint.y);
     
     CGContextStrokePath(context);
-    
-    /*
-    CGRect square01 = CGRectMake(center.x, center.y, 100, 100);
-    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
-    CGContextAddRect(context, square01);
-    CGContextStrokePath(context);
-    */
-     
-    /*
-    CGRect square01 = CGRectMake(100, 100, 100, 100);
-    CGRect square02 = CGRectMake(200, 200, 100, 100);
-    CGRect square03 = CGRectMake(300, 300, 100, 100);
-    
-    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
-    
-    CGContextAddRect(context, square01);
-    CGContextAddRect(context, square02);
-    CGContextAddRect(context, square03);
-    
-    CGContextStrokePath(context);
-    
-    CGContextSetFillColorWithColor(context, [UIColor greenColor].CGColor);
-    
-    CGContextAddEllipseInRect(context, square01);
-    CGContextAddEllipseInRect(context, square02);
-    CGContextAddEllipseInRect(context, square03);
-    
-    CGContextFillPath(context);
-    
-    CGContextSetStrokeColorWithColor(context, [UIColor blueColor].CGColor);
-    
-    CGContextSetLineWidth(context, 1.f);
-    CGContextSetLineCap(context, kCGLineCapRound);
-    
-    CGContextMoveToPoint(context, CGRectGetMinX(square01), CGRectGetMaxY(square01));
-    CGContextAddLineToPoint(context, CGRectGetMinX(square03), CGRectGetMaxY(square03));
-    
-    CGContextMoveToPoint(context, CGRectGetMaxX(square03), CGRectGetMinY(square03));
-    CGContextAddLineToPoint(context, CGRectGetMaxX(square01), CGRectGetMinY(square01));
-    
-    CGContextStrokePath(context);
-    
-    CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
-    
-    CGContextMoveToPoint(context, CGRectGetMinX(square01), CGRectGetMaxY(square01));
-    CGContextAddArc(context, CGRectGetMaxX(square01), CGRectGetMaxY(square01), CGRectGetWidth(square01), M_PI, 0, YES);
-    
-    CGContextMoveToPoint(context, CGRectGetMaxX(square03), CGRectGetMinY(square03));
-    CGContextAddArc(context, CGRectGetMinX(square03), CGRectGetMinY(square03), CGRectGetWidth(square03), 0, 3 * M_PI, YES);
-    
-    CGContextStrokePath(context);
-    */
 
 }
 
