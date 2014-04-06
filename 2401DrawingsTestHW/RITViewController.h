@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class RITDravingView;
+
 @interface RITViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet RITDravingView* drawingView;
 
 @end

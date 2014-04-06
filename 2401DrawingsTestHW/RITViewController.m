@@ -7,6 +7,7 @@
 //
 
 #import "RITViewController.h"
+#import "RITDravingView.h"
 
 @interface RITViewController ()
 
@@ -24,6 +25,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Orientation
+
+- (void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    
+    [self.drawingView setNeedsDisplay];
+    
 }
 
 @end
