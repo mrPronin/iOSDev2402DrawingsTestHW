@@ -1,8 +1,8 @@
 //
 //  RITDravingView.h
-//  2401DrawingsTestHW
+//  2402DrawingsTestHW
 //
-//  Created by Pronin Alexander on 05.04.14.
+//  Created by Pronin Alexander on 07.04.14.
 //  Copyright (c) 2014 Pronin Alexander. All rights reserved.
 //
 

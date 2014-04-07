@@ -20,7 +20,7 @@
 		A290D72818EFFA5B007CADE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A290D70718EFFA59007CADE5 /* Foundation.framework */; };
 		A290D72918EFFA5B007CADE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A290D70B18EFFA59007CADE5 /* UIKit.framework */; };
 		A290D73118EFFA5B007CADE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A290D72F18EFFA5B007CADE5 /* InfoPlist.strings */; };
-		A290D73318EFFA5B007CADE5 /* _401DrawingsTestHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A290D73218EFFA5B007CADE5 /* _401DrawingsTestHWTests.m */; };
+		A290D73318EFFA5B007CADE5 /* _402DrawingsTestHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A290D73218EFFA5B007CADE5 /* _402DrawingsTestHWTests.m */; };
 		A290D73E18EFFAF0007CADE5 /* RITDravingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A290D73D18EFFAF0007CADE5 /* RITDravingView.m */; };
 		A290D74018EFFC0A007CADE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A290D73F18EFFC0A007CADE5 /* README.md */; };
 /* End PBXBuildFile section */
@@ -36,25 +36,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A290D70418EFFA59007CADE5 /* 2401DrawingsTestHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2401DrawingsTestHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A290D70418EFFA59007CADE5 /* 2402DrawingsTestHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2402DrawingsTestHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A290D70718EFFA59007CADE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A290D70918EFFA59007CADE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A290D70B18EFFA59007CADE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A290D70F18EFFA5A007CADE5 /* 2401DrawingsTestHW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2401DrawingsTestHW-Info.plist"; sourceTree = "<group>"; };
+		A290D70F18EFFA5A007CADE5 /* 2402DrawingsTestHW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2402DrawingsTestHW-Info.plist"; sourceTree = "<group>"; };
 		A290D71118EFFA5A007CADE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A290D71318EFFA5A007CADE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A290D71518EFFA5A007CADE5 /* 2401DrawingsTestHW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2401DrawingsTestHW-Prefix.pch"; sourceTree = "<group>"; };
+		A290D71518EFFA5A007CADE5 /* 2402DrawingsTestHW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2402DrawingsTestHW-Prefix.pch"; sourceTree = "<group>"; };
 		A290D71618EFFA5A007CADE5 /* RITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITAppDelegate.h; sourceTree = "<group>"; };
 		A290D71718EFFA5A007CADE5 /* RITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITAppDelegate.m; sourceTree = "<group>"; };
 		A290D71A18EFFA5A007CADE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A290D71C18EFFA5A007CADE5 /* RITViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITViewController.h; sourceTree = "<group>"; };
 		A290D71D18EFFA5A007CADE5 /* RITViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITViewController.m; sourceTree = "<group>"; };
 		A290D71F18EFFA5A007CADE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A290D72518EFFA5A007CADE5 /* 2401DrawingsTestHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2401DrawingsTestHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A290D72518EFFA5A007CADE5 /* 2402DrawingsTestHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2402DrawingsTestHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A290D72618EFFA5A007CADE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A290D72E18EFFA5B007CADE5 /* 2401DrawingsTestHWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2401DrawingsTestHWTests-Info.plist"; sourceTree = "<group>"; };
+		A290D72E18EFFA5B007CADE5 /* 2402DrawingsTestHWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2402DrawingsTestHWTests-Info.plist"; sourceTree = "<group>"; };
 		A290D73018EFFA5B007CADE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A290D73218EFFA5B007CADE5 /* _401DrawingsTestHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _401DrawingsTestHWTests.m; sourceTree = "<group>"; };
+		A290D73218EFFA5B007CADE5 /* _402DrawingsTestHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _402DrawingsTestHWTests.m; sourceTree = "<group>"; };
 		A290D73C18EFFAF0007CADE5 /* RITDravingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RITDravingView.h; path = ../RITDravingView.h; sourceTree = "<group>"; };
 		A290D73D18EFFAF0007CADE5 /* RITDravingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RITDravingView.m; path = ../RITDravingView.m; sourceTree = "<group>"; };
 		A290D73F18EFFC0A007CADE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				A290D73F18EFFC0A007CADE5 /* README.md */,
-				A290D70D18EFFA59007CADE5 /* 2401DrawingsTestHW */,
-				A290D72C18EFFA5B007CADE5 /* 2401DrawingsTestHWTests */,
+				A290D70D18EFFA59007CADE5 /* 2402DrawingsTestHW */,
+				A290D72C18EFFA5B007CADE5 /* 2402DrawingsTestHWTests */,
 				A290D70618EFFA59007CADE5 /* Frameworks */,
 				A290D70518EFFA59007CADE5 /* Products */,
 			);
@@ -98,8 +98,8 @@
 		A290D70518EFFA59007CADE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A290D70418EFFA59007CADE5 /* 2401DrawingsTestHW.app */,
-				A290D72518EFFA5A007CADE5 /* 2401DrawingsTestHWTests.xctest */,
+				A290D70418EFFA59007CADE5 /* 2402DrawingsTestHW.app */,
+				A290D72518EFFA5A007CADE5 /* 2402DrawingsTestHWTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A290D70D18EFFA59007CADE5 /* 2401DrawingsTestHW */ = {
+		A290D70D18EFFA59007CADE5 /* 2402DrawingsTestHW */ = {
 			isa = PBXGroup;
 			children = (
 				A290D73C18EFFAF0007CADE5 /* RITDravingView.h */,
@@ -128,33 +128,35 @@
 				A290D71F18EFFA5A007CADE5 /* Images.xcassets */,
 				A290D70E18EFFA5A007CADE5 /* Supporting Files */,
 			);
+			name = 2402DrawingsTestHW;
 			path = 2401DrawingsTestHW;
 			sourceTree = "<group>";
 		};
 		A290D70E18EFFA5A007CADE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A290D70F18EFFA5A007CADE5 /* 2401DrawingsTestHW-Info.plist */,
+				A290D70F18EFFA5A007CADE5 /* 2402DrawingsTestHW-Info.plist */,
 				A290D71018EFFA5A007CADE5 /* InfoPlist.strings */,
 				A290D71318EFFA5A007CADE5 /* main.m */,
-				A290D71518EFFA5A007CADE5 /* 2401DrawingsTestHW-Prefix.pch */,
+				A290D71518EFFA5A007CADE5 /* 2402DrawingsTestHW-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A290D72C18EFFA5B007CADE5 /* 2401DrawingsTestHWTests */ = {
+		A290D72C18EFFA5B007CADE5 /* 2402DrawingsTestHWTests */ = {
 			isa = PBXGroup;
 			children = (
-				A290D73218EFFA5B007CADE5 /* _401DrawingsTestHWTests.m */,
+				A290D73218EFFA5B007CADE5 /* _402DrawingsTestHWTests.m */,
 				A290D72D18EFFA5B007CADE5 /* Supporting Files */,
 			);
+			name = 2402DrawingsTestHWTests;
 			path = 2401DrawingsTestHWTests;
 			sourceTree = "<group>";
 		};
 		A290D72D18EFFA5B007CADE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A290D72E18EFFA5B007CADE5 /* 2401DrawingsTestHWTests-Info.plist */,
+				A290D72E18EFFA5B007CADE5 /* 2402DrawingsTestHWTests-Info.plist */,
 				A290D72F18EFFA5B007CADE5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -163,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A290D70318EFFA59007CADE5 /* 2401DrawingsTestHW */ = {
+		A290D70318EFFA59007CADE5 /* 2402DrawingsTestHW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A290D73618EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2401DrawingsTestHW" */;
+			buildConfigurationList = A290D73618EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2402DrawingsTestHW" */;
 			buildPhases = (
 				A290D70018EFFA59007CADE5 /* Sources */,
 				A290D70118EFFA59007CADE5 /* Frameworks */,
@@ -175,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = 2401DrawingsTestHW;
+			name = 2402DrawingsTestHW;
 			productName = 2401DrawingsTestHW;
-			productReference = A290D70418EFFA59007CADE5 /* 2401DrawingsTestHW.app */;
+			productReference = A290D70418EFFA59007CADE5 /* 2402DrawingsTestHW.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A290D72418EFFA5A007CADE5 /* 2401DrawingsTestHWTests */ = {
+		A290D72418EFFA5A007CADE5 /* 2402DrawingsTestHWTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A290D73918EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2401DrawingsTestHWTests" */;
+			buildConfigurationList = A290D73918EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2402DrawingsTestHWTests" */;
 			buildPhases = (
 				A290D72118EFFA5A007CADE5 /* Sources */,
 				A290D72218EFFA5A007CADE5 /* Frameworks */,
@@ -193,9 +195,9 @@
 			dependencies = (
 				A290D72B18EFFA5B007CADE5 /* PBXTargetDependency */,
 			);
-			name = 2401DrawingsTestHWTests;
+			name = 2402DrawingsTestHWTests;
 			productName = 2401DrawingsTestHWTests;
-			productReference = A290D72518EFFA5A007CADE5 /* 2401DrawingsTestHWTests.xctest */;
+			productReference = A290D72518EFFA5A007CADE5 /* 2402DrawingsTestHWTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A290D6FF18EFFA59007CADE5 /* Build configuration list for PBXProject "2401DrawingsTestHW" */;
+			buildConfigurationList = A290D6FF18EFFA59007CADE5 /* Build configuration list for PBXProject "2402DrawingsTestHW" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A290D70318EFFA59007CADE5 /* 2401DrawingsTestHW */,
-				A290D72418EFFA5A007CADE5 /* 2401DrawingsTestHWTests */,
+				A290D70318EFFA59007CADE5 /* 2402DrawingsTestHW */,
+				A290D72418EFFA5A007CADE5 /* 2402DrawingsTestHWTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A290D73318EFFA5B007CADE5 /* _401DrawingsTestHWTests.m in Sources */,
+				A290D73318EFFA5B007CADE5 /* _402DrawingsTestHWTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +281,7 @@
 /* Begin PBXTargetDependency section */
 		A290D72B18EFFA5B007CADE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A290D70318EFFA59007CADE5 /* 2401DrawingsTestHW */;
+			target = A290D70318EFFA59007CADE5 /* 2402DrawingsTestHW */;
 			targetProxy = A290D72A18EFFA5B007CADE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,9 +392,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2401DrawingsTestHW/2401DrawingsTestHW-Prefix.pch";
-				INFOPLIST_FILE = "2401DrawingsTestHW/2401DrawingsTestHW-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "2401DrawingsTestHW/2402DrawingsTestHW-Prefix.pch";
+				INFOPLIST_FILE = "2401DrawingsTestHW/2402DrawingsTestHW-Info.plist";
+				PRODUCT_NAME = 2402DrawingsTestHW;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,9 +405,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2401DrawingsTestHW/2401DrawingsTestHW-Prefix.pch";
-				INFOPLIST_FILE = "2401DrawingsTestHW/2401DrawingsTestHW-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "2401DrawingsTestHW/2402DrawingsTestHW-Prefix.pch";
+				INFOPLIST_FILE = "2401DrawingsTestHW/2402DrawingsTestHW-Info.plist";
+				PRODUCT_NAME = 2402DrawingsTestHW;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -425,8 +427,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "2401DrawingsTestHWTests/2401DrawingsTestHWTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "2401DrawingsTestHWTests/2402DrawingsTestHWTests-Info.plist";
+				PRODUCT_NAME = 2402DrawingsTestHWTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -443,8 +445,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2401DrawingsTestHW/2401DrawingsTestHW-Prefix.pch";
-				INFOPLIST_FILE = "2401DrawingsTestHWTests/2401DrawingsTestHWTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "2401DrawingsTestHWTests/2402DrawingsTestHWTests-Info.plist";
+				PRODUCT_NAME = 2402DrawingsTestHWTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -453,7 +455,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A290D6FF18EFFA59007CADE5 /* Build configuration list for PBXProject "2401DrawingsTestHW" */ = {
+		A290D6FF18EFFA59007CADE5 /* Build configuration list for PBXProject "2402DrawingsTestHW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A290D73418EFFA5B007CADE5 /* Debug */,
@@ -462,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A290D73618EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2401DrawingsTestHW" */ = {
+		A290D73618EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2402DrawingsTestHW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A290D73718EFFA5B007CADE5 /* Debug */,
@@ -471,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A290D73918EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2401DrawingsTestHWTests" */ = {
+		A290D73918EFFA5B007CADE5 /* Build configuration list for PBXNativeTarget "2402DrawingsTestHWTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A290D73A18EFFA5B007CADE5 /* Debug */,
