@@ -121,4 +121,13 @@ CG_EXTERN void CGContextAddRect(CGContextRef c, CGRect rect)
 
 CG_EXTERN void CGContextAddEllipseInRect(CGContextRef context, CGRect rect)
   CG_AVAILABLE_STARTING(__MAC_10_4, __IPHONE_2_0);
+
+Quartz 2D Programming Guide
+https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/
+
+Drawing and Printing Guide for iOS
+https://developer.apple.com/library/ios/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/
+
+Core Image Programming Guide
+https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/CoreImaging/
 -------------------------------------------------------------------------------
