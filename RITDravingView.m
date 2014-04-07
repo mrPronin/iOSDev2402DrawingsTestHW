@@ -26,7 +26,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     for (int i = 0; i < 5; i++) {
-        [self drawStar:context andRect:rect];
+        [self drawStarWithContext:context andRect:rect];
     }
     
 }
@@ -41,7 +41,7 @@
     return [UIColor colorWithRed:r green:g blue:b alpha:1.f];
 }
 
-- (void) drawStar:(CGContextRef) ctx andRect:(CGRect) rect {
+- (void) drawStarWithContext:(CGContextRef) ctx andRect:(CGRect) rect {
     
     // the number of star vertices
     NSUInteger n = 5;
